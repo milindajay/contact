@@ -1267,3 +1267,13 @@ a.banner-cta {
     background: #000000;
     padding: 15px 20px;
 }
+
+@media (max-width: 415px) {
+    .form-desktop {
+        display: none;
+    }
+    .form_area {
+        margin-top: 0px;
+        background: #000000c7;
+    }
+}
