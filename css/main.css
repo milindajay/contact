@@ -1257,3 +1257,7 @@ p.address-card-text-2 {
 .social-icon::before {
     font-size: 25px;
 }
+
+.social-icon::before:hover {
+    color: black;
+}
