@@ -1261,3 +1261,9 @@ p.address-card-text-2 {
 .social-icon:hover {
     color: black;
 }
+
+@media (max-width: 415px) {
+    .cta_button_area.home_anim6.align-center {
+        margin-top: 40px;
+    }
+}
