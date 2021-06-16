@@ -1237,3 +1237,23 @@ p.address-card-text {
 p.address-card-text-2 {
     font-size: 16px;
 }
+
+.carrousal-image {
+    width: 100%;
+    height: fit-content !important;
+}
+
+.social-links {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-icon {
+    margin: 10px;
+    width: 35px;
+}
+
+.social-icon::before {
+    font-size: 25px;
+}
