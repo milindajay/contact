@@ -1240,7 +1240,7 @@ p.address-card-text-2 {
 
 .carrousal-image {
     width: 100%;
-    height: fit-content !important;
+    height: auto !important;
 }
 
 .social-links {
