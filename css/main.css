@@ -1262,8 +1262,8 @@ p.address-card-text-2 {
     color: black;
 }
 
-@media (max-width: 415px) {
-    .cta_button_area.home_anim6.align-center {
-        margin-top: 40px;
-    }
+a.banner-cta {
+    color: #ffffff;
+    background: #000000;
+    padding: 15px 20px;
 }
