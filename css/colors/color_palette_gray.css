@@ -1,37 +1,28 @@
-/*------------------------------------------------------------------
-[Stylesheet]
-Color Palette - Gray
-
-background_solid    { background: #424242; }
-button              { background: #272727; }
-button_hover        { background: #ababab; }
--------------------------------------------------------------------*/
-
+#screenshots .image_container,
 .btn,
-.btn-large,
-#screenshots .image_container {
-    background-color: #272727;
+.btn-large {
+    background-color: #272727
 }
 
-.btn:hover,
-.btn-large:hover {
-    background-color: #ababab;
+.btn-large:hover,
+.btn:hover {
+    background-color: #ababab
 }
 
-input[type=text]:focus,
-input[type=password]:focus,
-input[type=email]:focus,
 input[type=date]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
 input[type=tel]:focus,
+input[type=text]:focus,
 textarea:focus {
     border-bottom: 1px solid #272727;
     -webkit-box-shadow: 0 1px 0 0 #272727;
     -moz-box-shadow: 0 1px 0 0 #272727;
-    box-shadow: 0 1px 0 0 #272727;
+    box-shadow: 0 1px 0 0 #272727
 }
 
 .hero_fullscreen.background_solid {
-    background-color: #424242;
+    background-color: #424242
 }
 
 a {
@@ -39,14 +30,9 @@ a {
 }
 
 .hero_fullscreen.gradient_overlay {
-    /* IE10 Consumer Preview */
-    background-image: -ms-linear-gradient(top left, #4E342E 0%, #546E7A 100%);
-    /* Mozilla Firefox */
-    background-image: -moz-linear-gradient(top left, #4E342E 0%, #546E7A 100%);
-    /* Opera */
-    background-image: -o-linear-gradient(top left, #4E342E 0%, #546E7A 100%);
-    /* Webkit (Safari/Chrome 10) */
-    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #4E342E), color-stop(1, #546E7A));
-    /* Webkit (Chrome 11+) */
-    background-image: -webkit-linear-gradient(top left, #4E342E 0%, #546E7A 100%);
+    background-image: -ms-linear-gradient(top left, #4e342e 0, #546e7a 100%);
+    background-image: -moz-linear-gradient(top left, #4e342e 0, #546e7a 100%);
+    background-image: -o-linear-gradient(top left, #4e342e 0, #546e7a 100%);
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #4e342e), color-stop(1, #546e7a));
+    background-image: -webkit-linear-gradient(top left, #4e342e 0, #546e7a 100%)
 }

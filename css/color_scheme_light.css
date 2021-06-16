@@ -1,67 +1,62 @@
-/*------------------------------------------------------------------
-[Stylesheet]
-Color Scheme - Light
--------------------------------------------------------------------*/
-
-.hero_fullscreen,
-nav a,
 #message,
-.cta_button_area a {
-    color: white;
+.cta_button_area a,
+.hero_fullscreen,
+nav a {
+    color: #fff
 }
 
 .hero_fullscreen {
-    background-color: #212121;
+    background-color: #212121
 }
 
+.nivo-lightbox-theme-default.nivo-lightbox-overlay,
 .preloader_header,
-.subsection,
-.nivo-lightbox-theme-default.nivo-lightbox-overlay {
-    background-color: #fafafa;
+.subsection {
+    background-color: #fafafa
 }
 
 .preloader_header .preloader_loader svg path.preloader_loader_circlebg {
-    stroke: rgba(0, 0, 0, .1);
+    stroke: rgba(0, 0, 0, .1)
 }
 
 .preloader_header .preloader_loader svg path.preloader_loader_circle {
-    transition: stroke-dashoffset 0.2s;
-    stroke: rgba(0, 0, 0, .3);
+    transition: stroke-dashoffset .2s;
+    stroke: rgba(0, 0, 0, .3)
 }
 
-.contact_form input[type=text],
-.contact_form input[type=password],
-.contact_form input[type=email],
 .contact_form input[type=date],
+.contact_form input[type=email],
+.contact_form input[type=password],
 .contact_form input[type=tel],
+.contact_form input[type=text],
 .contact_form textarea {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(255, 255, 255, .4)
 }
 
 .background_color1 {
-    background: white;
+    background: #fff
 }
 
 .background_color2 {
-    background: #fafafa;
+    background: #fafafa
 }
 
 .iconbox_icon {
-    color: rgba(0, 0, 0, 0.5)
+    color: rgba(0, 0, 0, .5)
 }
 
 .nivo-lightbox-theme-default .nivo-lightbox-close,
 .nivo-lightbox-theme-default .nivo-lightbox-nav {
-    color: black
+    color: #000
 }
 
 #reviews .owl-theme .owl-controls .owl-page span {
-    border-color: black !important;
+    border-color: #000!important;
     background: rgba(0, 0, 0, 0)
 }
 
 #reviews .owl-theme .owl-controls .owl-page.active span,
 #reviews .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background: rgba(0, 0, 0, 1);
-    border-color: black !important
+    background: #000;
+    border-color: #000!important
 }
