@@ -1110,3 +1110,35 @@
             background: #000000c7
         }
     }
+    
+    .container-fluid.acess-info-cards {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    
+    .black-bg {
+        background: black;
+    }
+    
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .vertical-line {
+        border-left: 2px solid #707070;
+        height: 121px;
+        margin: auto 0px;
+    }
+    
+    .gray-bg {
+        background: #f7f7f7;
+    }
+    
+    .second-row-adress-card {
+        margin-top: -60px;
+    }
+    
+    h3.address-card-title {
+        opacity: 1;
+    }
