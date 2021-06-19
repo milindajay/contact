@@ -1085,6 +1085,17 @@
             margin-top: 0;
             background: #000000c7
         }
+        .second-row-adress-card {
+            margin-top: -31px;
+        }
+        .vertical-line {
+            border-left: 2px solid #707070;
+            height: 115px;
+            margin: auto 0px;
+        }
+        .cta-wrapper {
+            padding-top: 60px;
+        }
     }
     
     .col-xs-12.col-sm-6.col-md-6.col-lg-6.align-center.features_image.features_anim2.animated.fadeInLeft {
