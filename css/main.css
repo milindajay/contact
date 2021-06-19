@@ -1023,10 +1023,6 @@
         font-weight: 700
     }
     
-    p.address-card-text {
-        margin-bottom: 0
-    }
-    
     .address-card-bottom {
         background: #f7f7f7;
         padding-bottom: 30px
@@ -1042,6 +1038,7 @@
     }
     
     p.address-card-text {
+        margin-bottom: 0;
         font-size: 13px;
         opacity: 1;
     }
