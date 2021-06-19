@@ -25,3 +25,7 @@
 .second-row-adress-card {
     margin-top: -60px;
 }
+
+h3.address-card-title {
+    opacity: 1;
+}
